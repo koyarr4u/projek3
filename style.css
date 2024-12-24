@@ -1,0 +1,48 @@
+
+.text-container {
+    max-height: 100px; 
+    overflow: hidden;  
+    cursor: pointer;   
+    transition: max-height 0.3s ease; 
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.text-container.expanded {
+    max-height: 1000px; 
+}
+
+.text-content {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.kotak {
+    border: 2px solid black; 
+    padding: 20px; 
+    margin: 10px auto; 
+    text-align: center; 
+    background-color: white; 
+    width: fit-content; 
+}
+
+.klik {
+    height: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    outline: none; /* Menghilangkan outline default */
+}
+
+.text-container {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
